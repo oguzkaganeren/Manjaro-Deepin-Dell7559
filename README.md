@@ -2,7 +2,7 @@
 
 manjaro-deepin-18.0.2-stable-x86_64 or new version.
 
-
+![screen](https://github.com/oguzkaganeren/Manjaro-Deepin-Dell7559/blob/master/DeepinScreenshot_20190515232021.png)
 ```
 sudo nano /etc/default/grub 
 ```
