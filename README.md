@@ -18,16 +18,7 @@ sudo pacman-mirrors --fasttrack
 ```
 sudo pacman -S --noconfirm --needed pavucontrol aria2 ttf-ubuntu-font-family rxvt-unicode unace unrar sharutils uudeview arj cabextract speedtest-cli virt-manager qemu vde2 ebtables dnsmasq bridge-utils openbsd-netcat tlp-rdw smartmontools ethtool x86_energy_perf_policy yay xf86-video-fbdev telegram-desktop kdenlive inkscape create_ap virtualbox
 ```
-### Power Settings
-```
-sudo timedatectl set-ntp true
-sudo systemctl enable libvirtd.service
-sudo systemctl start libvirtd.service
-sudo systemctl mask systemd-rfkill.socket systemd-rfkill.service
-sudo sensors-detect
-sudo systemctl enable thermald
-sudo systemctl start thermald
-```
+
 About: https://forum.manjaro.org/t/howto-power-savings-setup-20180906/1445
 ### INTEL - Enable Early Kernel Mode Setting for i915 module.
 Edit /etc/mkinitcpio.conf file and in MODULES section add i915.
@@ -52,6 +43,16 @@ Change `#Color` to `Color` below the Music options.
 ### Aur Packages I use
 ```
 yay -S --noconfirm materia-theme opera chromium spotify ttf-font-awesome ttf-font-awesome-4 powerline-fonts ttf-roboto adobe-source-sans-pro-fonts android-studio woeusb-git visual-studio-code-bin papirus-icon-theme ntfs-3g jdownloader2 ttf-ms-fonts ephifonts otf-exo thermald
+```
+### Power Settings
+```
+sudo timedatectl set-ntp true
+sudo systemctl enable libvirtd.service
+sudo systemctl start libvirtd.service
+sudo systemctl mask systemd-rfkill.socket systemd-rfkill.service
+sudo sensors-detect
+sudo systemctl enable thermald
+sudo systemctl start thermald
 ```
 ### For Other Partitations
 If you have another partition(E, D etc.). You can mount it on the startup. Thus some applications which are using other partitions don't get an error.
