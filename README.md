@@ -16,7 +16,7 @@ sudo pacman-mirrors --fasttrack
 ```
 ### Packages I use
 ```
-sudo pacman -S pavucontrol aria2 ttf-ubuntu-font-family rxvt-unicode unace unrar sharutils uudeview arj cabextract speedtest-cli virt-manager qemu vde2 ebtables dnsmasq bridge-utils openbsd-netcat tlp-rdw smartmontools ethtool x86_energy_perf_policy yay xf86-video-fbdev telegram-desktop kdenlive inkscape create_ap virtualbox
+sudo pacman -S pavucontrol aria2 ttf-ubuntu-font-family rxvt-unicode unace unrar sharutils uudeview arj cabextract speedtest-cli virt-manager qemu vde2 ebtables dnsmasq bridge-utils openbsd-netcat tlp-rdw smartmontools ethtool x86_energy_perf_policy yay xf86-video-fbdev telegram-desktop kdenlive inkscape create_ap virtualbox xpad
 ```
 
 About: https://forum.manjaro.org/t/howto-power-savings-setup-20180906/1445
