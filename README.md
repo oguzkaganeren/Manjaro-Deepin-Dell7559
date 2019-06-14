@@ -190,3 +190,8 @@ Or, I fix it with;
 ```
 sudo chmod -002 /usr
 ```
+#### Steam: Failed to load steamui.so on bumblebee
+Run with below code;
+```
+LD_PRELOAD='/usr/$LIB/libstdc++.so.6 /usr/$LIB/libgcc_s.so.1 /usr/$LIB/libxcb.so.1' primusrun steam
+```
